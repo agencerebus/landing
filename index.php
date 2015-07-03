@@ -3,7 +3,7 @@
 <html lang="fr">
 	<head>
         <meta charset="utf-8">
-        <title>XXX</title>
+        <title>Ariew</title>
         <meta name="description" content="Landing Page">
         <meta name="author" content="Agence Rébus">
         <meta name="viewport" content="initial-scale=1">
@@ -53,8 +53,6 @@
 
         </div>
 
-        <p id="contributor">Contributor's Mazwai/Videezy.com</p>
-
         
 
 
@@ -62,7 +60,7 @@
     </body>
 
     <footer>
-        <p>© Rébus</p>
+        <p>© Rébus | Contributor's Mazwai/Videezy.com</p>
     </footer>
 
 </html>
