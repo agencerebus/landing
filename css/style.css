@@ -1,3 +1,50 @@
+
+@font-face{
+	font-family: 'OpenSansLt';
+	src : url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face{
+	font-family: 'OpenSansRegular';
+	src : url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face{
+	font-family: 'OpenSansSemiBold';
+	src : url(../fonts/OpenSans-Semibold.ttf);
+}
+
+@font-face{
+	font-family: 'OpenSansBold';
+	src : url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face{
+	font-family: 'OpenSansExtraBold';
+	src : url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+@font-face{
+	font-family: 'GothamLt';
+	src : url(../fonts/copyfonts.com_gotham-light.ttf);
+}
+
+@font-face{
+	font-family: 'GothamRegular';
+	src : url(../fonts/copyfonts.com_gotham-medium.ttf);
+}
+
+@font-face{
+	font-family: 'GothamBold';
+	src : url(../fonts/copyfonts.com_gotham-bold.ttf);
+}
+
+
+body {
+	font-family: OpenSansRegular;
+	font-size: 1rem;
+}
+
 video#bgvid {
   	position: fixed; right: 0; bottom: 0;
   	min-width: 100%; min-height: 100%;
@@ -15,12 +62,12 @@ video#bgvid {
 [role=main] {
 	/*background: #fff;*/
 	position: absolute;
-	top: 45%;
+	top: 40%;
 	left: 50%;
 	margin-left: -250px;
-	margin-top: -198px;
+	margin-top: -120px;
 	width: 500px;
-	height: 395px;
+	height: 360px;
 }
 
 [role=main] #logo img {
@@ -88,7 +135,7 @@ video#bgvid {
 	color: rgba(0,0,0,1);
 }
   
-[role=main] #reseaux {
+/* [role=main] #reseaux {
   width: 73px;
   margin: 50px auto 0 auto;
   padding: 0;
@@ -114,13 +161,22 @@ video#bgvid {
 	height: 24px;
 	margin: 0 5px;
 }
+*/
 
+#contributor {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	color: rgba(255,255,255,.5);
+	font-size: .7rem;
+}
 
 
 @media only screen and (max-width: 450px) {
 	[role=main] {
-		height: 465px;
-		margin-top: -232px;
+		height: 410px;
+		margin-top: -205px;
+		top: 40%;
 	}
 
 

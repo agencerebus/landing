@@ -39,6 +39,7 @@
                 <div style="clear:both"></div>
             </form>
 
+            <!-- 
             <ul id="reseaux">
                 <li id="twitter">
                     <a href="#" target=_blank></a>
@@ -48,7 +49,11 @@
                 </li>
             </ul>
 
+            -->
+
         </div>
+
+        <p id="contributor">Contributor's Mazwai/Videezy.com</p>
 
         
 
