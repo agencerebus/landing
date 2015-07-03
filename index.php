@@ -23,7 +23,8 @@
         <video autoplay loop muted id="bgvid">
             <source src="video/video-landing.mp4" type="video/mp4">
         </video>
-
+        <div id="img-cover">
+        </div>
         <div role="main">
             <h1 id="logo">
                 <img src="img/logo-rebus.png" alt="Logo rébus">
