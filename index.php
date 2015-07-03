@@ -4,7 +4,7 @@
 	<head>
         <meta charset="utf-8">
         <title>Ariew</title>
-        <meta name="description" content="Landing Page">
+        <meta name="description" content="Le masque ARIEW permet d’enrichir l’expérience des utilisateurs sans dénaturer leur environnement.">
         <meta name="author" content="Agence Rébus">
         <meta name="viewport" content="initial-scale=1">
         <link href="css/normalize.min.css" rel="stylesheet">
