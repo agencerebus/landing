@@ -1,7 +1,7 @@
 <?php
 try
 {
-    $bdd = new PDO('mysql:host=localhost;dbname=landing', 'root', '');
+    $bdd = new PDO('mysql:host=ariewnetave.mysql.db;dbname=ariewnetave', 'ariewnetave', 'RebusCompet8');
  
 }
 catch (Exception $e)
@@ -16,7 +16,6 @@ $req->execute(array(
 	'email' => $nom
 	));
 
-echo 'Le jeu a bien été ajouté !';
 
 print_r($bdd->errorInfo());
 ?>

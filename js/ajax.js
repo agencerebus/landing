@@ -1,15 +1,13 @@
 $(function() {  
-$("#inscription-news").click(function(){
-event.preventDefault();
+$("#news-inscription").submit(function(){
 var emailInput = $('#mail-news').val();  
-console.log(emailInput);   
     $.ajax({
        url : 'process.php',
        type : 'POST',
        data: { 'email': emailInput},
        dataType : 'html',
-       success : function(code_html, statut){
-           $(code_html).appendTo("#commentaires"); // On passe code_html à jQuery() qui va nous créer l'arbre DOM !
+       success : function(statut){
+           $('.succeed').html("<span>Votre email a bien été ajouté</span>").hide().fadeIn( 'slow' );
        },
 
        error : function(resultat, statut, erreur){
@@ -21,6 +19,6 @@ console.log(emailInput);
        }
 
     });
-   
+   return false;
 });
 });
