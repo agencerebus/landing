@@ -84,6 +84,10 @@ video#bgvid {
   	margin: 0 auto;
   	padding: 25px;
   	border-radius: 90px;
+  	text-align: center;
+  	line-height: 90px;
+  	letter-spacing: 6px;
+  	font-size: 1.4rem;
 }
 
 [role=main] p#baseline {

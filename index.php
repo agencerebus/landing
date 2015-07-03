@@ -27,7 +27,8 @@
         </div>
         <div role="main">
             <h1 id="logo">
-                <img src="img/logo-rebus.png" alt="Logo rébus">
+                <!-- <img src="img/logo-rebus.png" alt="Logo rébus"> -->
+                ARIEW
             </h1>
 
             <p id="baseline">"Sans défi, il est impossible de se dépasser"</p>
