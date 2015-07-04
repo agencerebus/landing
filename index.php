@@ -21,7 +21,7 @@
     </head>
 
     <body> 
-        <video autoplay loop muted id="bgvid">
+        <video autoplay loop muted poster="../img/background-landing.png" id="bgvid">
             <source src="video/video-landing.mp4" type="video/mp4">
         </video>
         <div id="img-cover">

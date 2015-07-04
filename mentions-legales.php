@@ -114,7 +114,7 @@
 
 
         <footer>
-            <p>© Rébus | Contributor's Mazwai/Videezy.com</p>
+            <p>© Rébus | Contributor's Mazwai/Videezy.com | <a href="mentions-legales.php">Mentions légales</a></p>
         </footer>
     </body>
 </html>
